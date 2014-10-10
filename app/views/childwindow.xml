@@ -1,0 +1,18 @@
+<Alloy>
+	<!-- iOS -->
+	<NavigationWindow platform="ios" id="navWin">
+		<Window>
+			<LeftNavButton>
+				<Button title="Close" id="close"/>
+			</LeftNavButton>
+			<TableView id="table">
+			</TableView>
+		</Window>
+	</NavigationWindow>
+
+	<!-- Android -->
+	<Window platform="android">
+		<TableView id="table">
+		</TableView>
+	</Window>
+</Alloy>
